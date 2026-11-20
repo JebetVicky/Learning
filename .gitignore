@@ -1,0 +1,14 @@
+# Never commit research data
+MSc/03_data/**
+!MSc/03_data/README.md
+!MSc/03_data/data_dictionary.md
+*.xlsx
+*.xls
+*.csv
+*.dta
+*.sav
+*.rds
+.Rhistory
+.RData
+.Rproj.user/
+~$*
