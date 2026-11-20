@@ -2,7 +2,10 @@
 
 MSc Agricultural Information and Communication Management, Department of Agricultural Economics, University of Nairobi (expected 2027).
 
-Working area: secondary analysis of the AgriFin Digital Farmer 2 (ADF2) evaluation data (Mercy Corps AgriFin), aimed at a thesis that also yields at least one peer-reviewed journal article.
+Topic (chosen 20 Nov 2026): **Digital livestock advisory services, cattle health and dairy farmer income in Kenya: evidence from DigiCow.** Supervisor: Dr Hilary Nyanganga. Secondary analysis of the AgriFin Digital Farmer 2 (ADF2) evaluation data (Mercy Corps AgriFin), in R, aimed at a thesis plus at least two journal articles.
+
+- Proposal draft: [`01_proposal/proposal_digicow.md`](01_proposal/proposal_digicow.md) (Word version alongside)
+- AI prompt toolkit: [`07_prompts/AI_Prompt_Toolkit_MSc.md`](07_prompts/AI_Prompt_Toolkit_MSc.md)
 
 ## Folders
 
