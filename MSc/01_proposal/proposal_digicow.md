@@ -5,7 +5,7 @@ title: "DIGITAL LIVESTOCK ADVISORY SERVICES, CATTLE HEALTH AND DAIRY FARMER INCO
 ::: {custom-style="Title page"}
 VICKY JEBET
 
-[REGISTRATION NUMBER]
+AAE62/49784/2026
 
 A research proposal submitted in partial fulfilment of the requirements for the award of the degree of Master of Science in Agricultural Information and Communication Management
 
@@ -15,7 +15,7 @@ FACULTY OF AGRICULTURE
 
 UNIVERSITY OF NAIROBI
 
-[MONTH] 2026
+DECEMBER 2026
 :::
 
 # DECLARATION
@@ -24,19 +24,15 @@ This proposal is my original work and has not been presented for the award of a 
 
 Signature: .................................... Date: ....................
 
-Vicky Jebet ([Registration number])
+Vicky Jebet (AAE62/49784/2026)
 
 This proposal has been submitted with our approval as University supervisors.
 
 Signature: .................................... Date: ....................
 
-Dr Hilary Nyanganga [confirm title and spelling]
+Dr Hillary Nyang'anga
 Department of Agricultural Economics, University of Nairobi
 
-Signature: .................................... Date: ....................
-
-[Second supervisor, if any]
-[Department, Institution]
 
 # ABSTRACT
 
@@ -60,7 +56,7 @@ Kenya's policy environment encourages this shift. The Agricultural Sector Transf
 
 Digital agricultural advisory services have grown quickly, but the evidence on their effects is mixed and, above all, thin on mechanisms. Reviews find modest average gains in knowledge, adoption of recommended inputs and yields, with wide variation between programmes (Fabregas et al., 2019; Spielman et al., 2021). Most studies report whether an outcome such as yield or income changed. Very few show *why* it changed, so it is not known whether the gains come from the expected pathway, such as better animal health, or from other channels such as better record-keeping, market information or lower input waste.
 
-This gap matters especially for livestock. Almost all rigorous evidence on digital extension concerns crops (Cole and Fernando, 2021; Van Campenhout, Spielman and Lecoutere, 2021), while evidence on digital livestock advisory in Africa is limited to a small number of studies [verify, for example Marwa et al., 2020 on iCow in Kenya]. For dairy, animal health is the most plausible pathway from advice to income, but this has not been formally tested with evaluation data. In addition, platforms and funders know little about which components of a digital livestock service, and what intensity of use, are associated with real changes in farm practice, which limits their ability to design and target services.
+This gap matters especially for livestock. Almost all rigorous evidence on digital extension concerns crops (Cole and Fernando, 2021; Van Campenhout, Spielman and Lecoutere, 2021), while evidence on digital livestock advisory in Africa is limited to a small number of studies (for example Marwa et al., 2020). For dairy, animal health is the most plausible pathway from advice to income, but this has not been formally tested with evaluation data. In addition, platforms and funders know little about which components of a digital livestock service, and what intensity of use, are associated with real changes in farm practice, which limits their ability to design and target services.
 
 Without this evidence, service providers, county governments and funders risk scaling digital livestock services on the basis of reach figures or a single average effect, without knowing which channel delivers the gain or which services farmers act on. The ADF2 evaluation of DigiCow provides a rare opportunity to address this: it includes a matched treatment and comparison sample, a cattle health index and an attenuation analysis, together with farmer-level usage data. The study will use these data to estimate the effect of DigiCow, test the animal health pathway and identify which information services drive practice change.
 
@@ -150,11 +146,19 @@ Cole and Fernando (2021) evaluated a mobile phone advisory hotline for cotton fa
 
 Van Campenhout, Spielman and Lecoutere (2021) tested video-based agricultural advice for maize farmers in Uganda, varying whether information was targeted to men, women or couples [verify findings]. Their study shows that how and to whom digital information is delivered matters, which informs objective three.
 
-[Add 4 to 8 further studies here, using the format: who, where, objective, method, findings, and how this study differs. Priorities: (a) studies on ICT or digital extension in livestock or dairy, especially in East Africa, for example Marwa et al. (2020) on iCow in Kenya [verify]; (b) studies using PSM to evaluate extension or ICT services in Kenya or East Africa; (c) studies using causal mediation analysis in agricultural or development economics.]
+Marwa et al. (2020) assessed the impact of the iCow mobile dairy advisory service, a forerunner of DigiCow, on dairy production and household welfare in Uasin Gishu, Nyandarua and Bomet counties of Kenya. Using propensity score matching on cross-sectional survey data comparing iCow users with non-users, they found that iCow use raised annual milk production per cow by 13 per cent, milk income by 29 per cent and household income by 22 per cent. The University of Nairobi thesis on which the study draws, which sampled 457 farmers (209 regular iCow users and 248 non-users), found that effects differed by county and were not significant in Bomet (University of Nairobi Digital Repository, n.d.). This is the closest study to the present one. The present study differs by using a more recent digital service and by testing *why* income changes, through the cattle health pathway, rather than only whether it changes.
+
+Bonilla et al. (2018) evaluated the IFAD-funded Smallholder Dairy Commercialization Programme, implemented by the Government of Kenya in nine counties from 2005 to 2015. Using propensity score matching combined with focus group discussions and key informant interviews, they found that the programme increased milk production but had limited effects on the quantity of milk sold and on prices received. The study shows that production gains do not automatically translate into market and income gains, which supports the present study's decision to measure milk yield, milk sales and income separately.
+
+Chepkirui, Owuor and Kibet (2022) assessed the effect of revolving funds on milk yields among 288 smallholder dairy farmers (144 users and 144 non-users) in Bomet County, Kenya, using propensity score matching. They found no significant effect on milk yield, which they attributed to diversion of funds to non-farm uses. The study illustrates both the use of PSM in Kenyan dairy research and the importance of testing whether an intervention actually reaches the production channel it targets, which the present study does through mediation analysis.
+
+[Add 2 to 5 further studies. Priorities: studies using PSM to evaluate extension or ICT services in Kenya or East Africa; (c) studies using causal mediation analysis in agricultural or development economics.]
 
 ### 2.5.2 Animal health, productivity and income in smallholder dairy
 
-[Add 3 to 5 studies that quantify the effect of animal health interventions or disease on milk yield and household income in Kenya or East Africa, in the same who, where, what, method, findings, difference format.]
+Maloo et al. (2001) followed about 120 cattle in 26 smallholder dairy herds in Kaloleni Division, coastal Kenya, from June 1990 to December 1991 to measure disease incidence and mortality. East Coast fever was the main disease, and accumulated mortality to 18 months of age reached 56 per cent. The study shows the scale of losses that animal disease imposes on smallholder dairy and why animal health is a plausible pathway from advice to productivity. Unlike this epidemiological study, the present study links animal health to an information intervention and to household income.
+
+[Add 2 to 4 further studies that quantify the effect of animal health interventions or disease on milk yield and income in Kenya or East Africa.]
 
 ### 2.5.3 Information use and practice adoption
 
@@ -259,7 +263,26 @@ where *A*~ik~ is adoption of practice *k*, Λ is the logistic function, *S*~i~ i
 
 Average marginal effects will be reported for all models. Multicollinearity will be checked with variance inflation factors, and robust standard errors will be used. Interaction terms between sex and service use will test whether associations differ for women and men.
 
-[Finalise the exact variables after reviewing the data dictionary. See Appendix 2.]
+Table 3.1 lists the variables in the objective three models, how they will be measured and their expected signs. [Support each expected sign with at least two studies, as the Department guide requires, and finalise variables after reviewing the data dictionary.]
+
+*Table 3.1: Description of variables in the practice adoption and production change models and their expected signs*
+
+| Code | Variable | Measurement | Expected sign |
+|---|---|---|---|
+| ADOPT | Adoption of recommended practice *k* (dependent) | 1 = adopted, 0 = not | |
+| PRODCHG | Reported production change (dependent) | 1 = decreased, 2 = no change, 3 = increased | |
+| RECORD | Uses DigiCow record-keeping | 1 = yes, 0 = no | + |
+| REMIND | Receives DigiCow reminders (vaccination, deworming, breeding) | 1 = yes, 0 = no | + |
+| ADVICE | Uses DigiCow expert advice | 1 = yes, 0 = no | + |
+| INTENS | Intensity of use | Frequency band or number of services used | + |
+| CHANNEL | Main delivery channel | App, SMS, USSD or call (categorical) | ± |
+| FEMALE | Sex of farmer | 1 = female, 0 = male | ± |
+| AGE | Age band | Categorical | ± |
+| EDUC | Education level | Categorical | + |
+| HERD | Herd size | Number of dairy cattle or band | + |
+| LOC | Location band | Categorical | ± |
+
+
 
 ### 3.5.4 Summary of analysis by objective
 
@@ -330,20 +353,21 @@ Indicative work plan, assuming the proposal is presented at a departmental semin
 
 # BUDGET
 
-Indicative budget in Kenya shillings (KES). Figures are estimates to be confirmed against current prices.
+Indicative budget in Kenya shillings (KES). All unit costs are estimates and will be confirmed against current prices and fee schedules before submission. Tuition and university examination fees are excluded because they are paid separately under the fee structure.
 
 | Item | Unit | Quantity | Unit cost (KES) | Total (KES) |
 |---|---|---|---|---|
-| Internet data for literature search, data access and analysis | Month | 12 | [ ] | [ ] |
-| Printing and spiral binding of proposal copies | Copy | [ ] | [ ] | [ ] |
-| Printing and spiral binding of thesis for examination | Copy | 4 | [ ] | [ ] |
-| Hard binding of final thesis | Copy | 4 | [ ] | [ ] |
-| Ethics review or exemption fee | Lump sum | 1 | [ ] | [ ] |
-| NACOSTI research licence (if required) | Lump sum | 1 | [ ] | [ ] |
-| Travel for supervisor meetings and seminars | Trip | [ ] | [ ] | [ ] |
-| Journal article processing charges (prioritise no-fee journals) | Paper | 2 | [ ] | [ ] |
-| Contingency (10%) | | | | [ ] |
-| **Total** | | | | [ ] |
+| Internet data for literature search, data access and analysis | Month | 12 | 2,000 | 24,000 |
+| Printing and spiral binding of proposal copies | Copy | 5 | 500 | 2,500 |
+| Printing and spiral binding of thesis for examination | Copy | 4 | 1,500 | 6,000 |
+| Hard binding of final thesis | Copy | 4 | 3,000 | 12,000 |
+| Ethics review or exemption fee | Lump sum | 1 | 5,000 | 5,000 |
+| NACOSTI research licence (if required) | Lump sum | 1 | 1,000 | 1,000 |
+| Travel for supervisor meetings and seminars | Trip | 12 | 1,000 | 12,000 |
+| Journal article processing charges (prioritise no-fee journals) | Paper | 1 | 20,000 | 20,000 |
+| Stationery and miscellaneous | Lump sum | 1 | 3,000 | 3,000 |
+| Contingency (10%) | | | | 8,550 |
+| **Total** | | | | **94,050** |
 
 *Budget narrative:* no field data collection is required because the study uses secondary data, so costs are limited to data access, ethics, communication, printing and publication. R, RStudio and Zotero are free and open-source, so no software costs arise.
 
@@ -359,7 +383,11 @@ Bellemare, M. F., & Wichman, C. J. (2020). Elasticities and the inverse hyperbol
 
 Bhattacherjee, A. (2001). Understanding information systems continuance: An expectation-confirmation model. *MIS Quarterly, 25*(3), 351–370.
 
+Bonilla, J., McCarthy, N., Mugatha, S., Rai, N., Coombes, A., & Brubaker, J. (2018). *Impact evaluation of the Smallholder Dairy Commercialization Programme in Kenya* (3ie Impact Evaluation Report 73). International Initiative for Impact Evaluation (3ie). https://doi.org/10.23846/tw4IE73
+
 Caliendo, M., & Kopeinig, S. (2008). Some practical guidance for the implementation of propensity score matching. *Journal of Economic Surveys, 22*(1), 31–72.
+
+Chepkirui, N., Owuor, G., & Kibet, L. (2022). The effects of revolving funds on milk yields in Kenya. *Asian Journal of Agricultural Extension, Economics & Sociology, 40*(5), 65–71. https://doi.org/10.9734/AJAEES/2022/v40i530887
 
 Cinelli, C., & Hazlett, C. (2020). Making sense of sensitivity: Extending omitted variable bias. *Journal of the Royal Statistical Society: Series B, 82*(1), 39–67.
 
@@ -377,7 +405,9 @@ Khandker, S. R., Koolwal, G. B., & Samad, H. A. (2010). *Handbook on impact eval
 
 Long, J. S., & Freese, J. (2014). *Regression models for categorical dependent variables using Stata* (3rd ed.). Stata Press.
 
-Marwa, M. E., Mburu, J., Oburu, R. E. J., Mwai, O., & Kahumbu, S. (2020). Impact of ICT based extension services on dairy production and household welfare: The case of iCow service in Kenya. *Journal of Agricultural Science, 12*(3), 141–151. [verify all details]
+Maloo, S. H., Rowlands, G. J., Thorpe, W., Gettinby, G., & Perry, B. D. (2001). A longitudinal study of disease incidence and case-fatality risks on small-holder dairy farms in coastal Kenya. *Preventive Veterinary Medicine, 52*(1), 17–29. [verify year and issue]
+
+Marwa, M. E., Mburu, J., Oburu, R. E. J., Mwai, O., & Kahumbu, S. (2020). Impact of ICT based extension services on dairy production and household welfare: The case of iCow service in Kenya. *Journal of Agricultural Science, 12*(3), 141. https://doi.org/10.5539/jas.v12n3p141 [add end page]
 
 Mercy Corps AgriFin. (2026). *AgriFin Digital Farmer 2 programme overview.* https://mercycorpsagrifin.org/program-overview/
 
@@ -406,6 +436,8 @@ Tingley, D., Yamamoto, T., Hirose, K., Keele, L., & Imai, K. (2014). mediation: 
 Tsan, M., Totapally, S., Hailu, M., & Addom, B. K. (2019). *The digitalisation of African agriculture report 2018–2019.* CTA and Dalberg Advisors.
 
 Van Campenhout, B., Spielman, D. J., & Lecoutere, E. (2021). Information and communication technologies to provide agricultural advice to smallholder farmers: Experimental evidence from Uganda. *American Journal of Agricultural Economics, 103*(1), 317–337.
+
+University of Nairobi Digital Repository. (n.d.). *Impact of information and communication technology-based extension services on dairy production and household welfare: The case of iCow service in Kenya* [Master's thesis, University of Nairobi]. http://erepository.uonbi.ac.ke/handle/11295/107821 [add author and year from the full record]
 
 Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User acceptance of information technology: Toward a unified view. *MIS Quarterly, 27*(3), 425–478.
 
