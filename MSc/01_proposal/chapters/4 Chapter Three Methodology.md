@@ -45,7 +45,7 @@ The sample will be the full DigiCow evaluation sample. No new sampling will be d
 
 ## 3.5 Data analysis
 
-All analysis will be done in R (R Core Team, 2025), with each step written as a script so that the analysis is fully reproducible. The main packages will be `MatchIt` (Ho et al., 2011) and `cobalt` for matching and balance, `WeightIt` and `marginaleffects` for doubly robust estimates, `sensemakr` (Cinelli and Hazlett, 2020) and `rbounds` for sensitivity analysis, `mediation` (Tingley et al., 2014) for causal mediation, and `MASS` or `ordinal` for ordered logit models.
+All analysis will be done in R (R Core Team, 2025), with each step written as a script so that the analysis is fully reproducible. The main packages will be `MatchIt` (Ho et al., 2011) and `cobalt` for matching and balance, `WeightIt` and `marginaleffects` for doubly robust estimates, `sensemakr` (Cinelli & Hazlett, 2020) and `rbounds` for sensitivity analysis, `mediation` (Tingley et al., 2014) for causal mediation, and `MASS` or `ordinal` for ordered logit models.
 
 ### 3.5.1 Objective one: effect of DigiCow on productivity and income
 
@@ -57,11 +57,11 @@ where *Z*~i~ contains pre-participation characteristics that affect both partici
 
 **Step 2: Matching.** Treated farmers will be matched to comparison farmers using radius (caliper) matching, as in the original evaluation, with nearest-neighbour and kernel matching as robustness checks. Only farmers in the region of common support will be retained.
 
-**Step 3: Balance.** Matching quality will be checked using standardised mean differences (target below 0.1), variance ratios, the pseudo-R² before and after matching, and density plots of propensity scores (Caliendo and Kopeinig, 2008).
+**Step 3: Balance.** Matching quality will be checked using standardised mean differences (target below 0.1), variance ratios, the pseudo-R² before and after matching, and density plots of propensity scores (Caliendo & Kopeinig, 2008).
 
-**Step 4: Effect estimation.** The ATT will be estimated for milk yield per cow per day, milk sales and net income, in levels and in inverse hyperbolic sine (asinh) form to reduce the influence of skewed values and zeros (Bellemare and Wichman, 2020). Standard errors will be bootstrapped or computed from the regression on the matched sample with matching weights.
+**Step 4: Effect estimation.** The ATT will be estimated for milk yield per cow per day, milk sales and net income, in levels and in inverse hyperbolic sine (asinh) form to reduce the influence of skewed values and zeros (Bellemare & Wichman, 2020). Standard errors will be bootstrapped or computed from the regression on the matched sample with matching weights.
 
-**Step 5: Robustness.** The ATT will be re-estimated with IPWRA as a doubly robust check. Sensitivity to unobserved confounding will be assessed with Rosenbaum bounds (Rosenbaum, 2002) and with the `sensemakr` robustness value (Cinelli and Hazlett, 2020), which states how strong an unobserved confounder would have to be to explain away the effect.
+**Step 5: Robustness.** The ATT will be re-estimated with IPWRA as a doubly robust check. Sensitivity to unobserved confounding will be assessed with Rosenbaum bounds (Rosenbaum, 2002) and with the `sensemakr` robustness value (Cinelli & Hazlett, 2020), which states how strong an unobserved confounder would have to be to explain away the effect.
 
 ### 3.5.2 Objective two: the mediating role of cattle health
 
